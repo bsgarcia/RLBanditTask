@@ -55,7 +55,7 @@ class Agent {
         Agent(int nb, float e, float a) : nb(nb), e(e), a(a) {}
         
         // "this" prefixes are not mandatory but
-        // help finding actual class' members
+        // help finding actual class's members
         int make_choice() {
             int n;
             if (utils::randd(0, 1) < this->e) {
